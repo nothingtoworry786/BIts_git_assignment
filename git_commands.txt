@@ -1,0 +1,81 @@
+﻿GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init -b main
+Initializes a local Git repository with the main branch.
+
+2. git status
+Displays the current repository status and file changes.
+
+3. git add index.html about.html
+Adds the two HTML files to the staging area.
+
+4. git commit -m "Initial commit: add index.html and about.html"
+Creates the first commit containing the initial HTML files.
+
+5. git push -u origin main
+Pushes the main branch to GitHub and sets its upstream branch.
+
+6. git add index.html
+Stages the modified homepage.
+
+7. git commit -m "Update index.html with intro paragraph"
+Creates the second commit after modifying index.html.
+
+8. git branch feature
+Creates a new branch named feature.
+
+9. git switch feature
+Switches from main to the feature branch.
+
+10. git add about.html
+Stages the modified about.html file.
+
+11. git commit -m "Add team description to about.html on feature branch"
+Commits the changes made on the feature branch.
+
+12. git switch main
+Switches back to the main branch.
+
+13. git merge feature --no-ff -m "Merge feature branch into main"
+Merges the feature branch into main and creates a merge commit.
+
+14. git log --graph --oneline --all
+Displays the commit history in graphical form, including all branches.
+
+15. git branch --show-current
+Displays the name of the current branch.
+
+16. git status --short --ignored
+Checks repository changes and confirms ignored files.
+
+17. git add .gitignore
+Stages the .gitignore file.
+
+18. git commit -m "Add .gitignore for .log files and temp folder"
+Commits the ignore rules for log files and the temp folder.
+
+19. git status --short --branch
+Displays the current branch and concise repository status.
+
+20. git log -1 --oneline
+Displays the latest commit.
+
+21. git add index.html
+Stages the temporary change made for the undo demonstration.
+
+22. git commit -m "Add temporary comment for undo demonstration"
+Creates an additional commit to demonstrate the undo operation.
+
+23. git reset --hard HEAD~1
+Undoes the latest commit and restores the previous repository state.
+
+24. git remote -v
+Displays the configured remote repository URLs.
+
+25. git remote add origin https://github.com/nothingtoworry786/BIts_git_assignment.git
+Connects the local repository to the GitHub repository.
+
+26. git push -u origin --all
+Pushes all local branches to GitHub and sets their upstream tracking branches.
+
+Note: An initial push attempt was made before the first commit. Git reported that there were no refs to push. The push was performed successfully after creating the first commit.
